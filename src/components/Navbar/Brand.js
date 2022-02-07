@@ -1,11 +1,13 @@
 import React from 'react';
+import logo from '../../images/logo.png';
+
 
 export default function Brand() {
   return <div className="brand">
-    <img src="../images/logo.png"></img>
-    <ul style={{display: 'flex', flexDirection:'column', alignItems: 'start'}}>
-       <li>OSF</li>
-       <li>Academy</li>
-    </ul>
-  </div>;
+            <a href="App.js"><img src={logo} alt="osfdigital" /></a>
+                <ul style={{display: 'flex', flexDirection:'column', alignItems: 'start'}}>
+                    <li>OSF</li>
+                    <li>Academy</li>
+                </ul>
+         </div>;
 }
