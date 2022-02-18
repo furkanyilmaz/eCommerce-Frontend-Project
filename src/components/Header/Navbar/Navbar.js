@@ -9,6 +9,7 @@ export default function Navbar() {
         <Brand />
         <Links />
         <Icons />
+        
       </div>
     </div>
   );

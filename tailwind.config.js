@@ -25,4 +25,8 @@ module.exports = {
     },
   },
   plugins: [],
+  fontFamily: {
+    
+    lato:  ['lato-regular'],
+  },
 };
