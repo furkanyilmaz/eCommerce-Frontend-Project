@@ -1,11 +1,12 @@
 import React from "react";
-import bannerosf from "../images/bannerosf.png"
 //classname : w-full 
 export default function Banner() {
   return <div className="bg-yellow-500 h-s3" >
 
-        <div>
-            <img className="" src={bannerosf}></img>
+        <div className="w-full h-full bg-no-repeat bg-cover bg-center bg-bannerosf flex flex-col items-center justify-center">
+            <h1 className="text-4xl font-bold text-white mb-8">Banner OSF Theme</h1>
+            <p className="text-white w-96 text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+            </p>
         </div>
   </div>;
 }
