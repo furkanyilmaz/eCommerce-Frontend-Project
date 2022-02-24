@@ -1,82 +1,155 @@
 import React from "react";
-import f from "../images/f.png"
-import g from "../images/g+.png"
-import t from "../images/t.png"
-import p from "../images/p.png"
+import f from "../images/f.png";
+import g from "../images/g+.png";
+import t from "../images/t.png";
+import p from "../images/p.png";
 
 export default function Footer() {
-  return <div className="bg-white h-s6">
-
-
-<div className="columns-3">
-      <div className="ml-80 float-left">
-                      <br></br>
-                    <p className='col-sm'>&copy;Copyright {new Date().getFullYear()} All Rights Reserved.</p> 
-                      
-                      <br></br>
-                      <br></br>
-                      <h5 className='font-bold'>CONTACT</h5>
-                      <br></br>
-                            Headquarters:
-                            <br></br>
-                              5600, Blvd. des Galeries, Bur 530
-                              <br></br> 
-                              Québec, Québec G2K 2H6 
-                              <br></br>
-                              <br></br>
-                              <a href="#">contact@osf-global.com</a> 
-                              <br></br>
-                              <br></br>
-                              <a href="#">+1 (888) 548-4344</a>
-                     
-      </div>
-      <div className="ml-80 float-left grid grid-rows-6 grid-flow-col gap-4">
-                      
-                      <br></br>
-                      <h5 className='font-bold'>CATEGORIES</h5>
-                      <a href="#">Alcohol</a>
-                      <a href="#">Art</a>
-                      <a href="#">Books</a>
-                      <a href="#">Drink</a>
-                      <a href="#">Electronics</a>
-                      <a href="#">Home</a>
-                      <a href="#">Jewerly</a>
-                      <a href="#">Kids & Baby</a>
-                      <a href="#">Men's Fashion</a>
-                      <a href="#">Mobile</a>
-                      <a href="#">Motorcycles</a>
-                      <a href="#">Movies</a>
-                      <a href="#">Music</a>
-                      <a href="#">Sport</a>
-                      <a href="#">Toys</a>
-                      <a href="#">Travel</a>
-                      <a href="#">Woman's Fashion</a>
-                      <br></br>
-                              
+  return (
+    <div className="w-fw mx-auto flex space-x-32 font-lato">
+      <div className="mr-2">
+        <br></br>
+        <p className="col-sm">
+          &copy;Copyright {new Date().getFullYear()} All Rights Reserved.
+        </p>
+        <br></br>
+        <br></br>
+        <h1 className="font-bold">CONTACT</h1>
+        <br></br>
+        Headquarters:
+        <br></br>
+        5600, Blvd. des Galeries, Bur 530
+        <br></br>
+        Québec, Québec G2K 2H6
+        <br></br>
+        <br></br>
+        <a href="https://osf.digital/" target="_blank">
+          contact@osf-global.com
+        </a>
+        <br></br>
+        <br></br>
+        <a href="#">+1 (888) 548-4344</a>
       </div>
 
-     
-                <div className="ml-80 float-left grid grid-rows-6 grid-flow-col gap-4">
-                  
-                      
-                      <br></br>
-                      <br></br>
-                      <h5 className='font-bold'>ABOUT</h5>
-                      <a href="#">About us</a>
-                      <a href="#">Delivery</a>
-                      <a href="#">Testimonials</a>
-                      <a href="#">contact</a>
+      <div className="pr-2">
+        <div>
+          <br></br>
+          <h1 className="font-bold">CATEGORIES</h1>
+          <br></br>
+        </div>
+        <div className="flex flex-row space-x-20 opacity-70">
+          <div>
+            <ul className="space-y-4">
+              <li>
+                <a href="#">Alcohol</a>
+              </li>
+              <li>
+                <a href="#">Art</a>
+              </li>
+              <li>
+                <a href="#">Books</a>
+              </li>
+              <li>
+                <a href="#">Drinks</a>
+              </li>
+              <li>
+                <a href="#">Electronics</a>
+              </li>
+            </ul>
+          </div>
 
-                      <ul className="" style={{display: 'flex', alignItems: 'center', justifyContent: 'space-evenly'}}>
-                        <li className="mr-5">  <a href="#"><img src={f}></img></a></li>
-                        <li className="mr-5">  <a href="#"><img src={g}></img></a></li>
-                        <li className="mr-5">  <a href="#"><img src={t}></img></a></li>
-                        <li className="mr-5">  <a href="#"><img src={p}></img></a></li>
-                        
-                      </ul>
-                      
-                      
-                </div>
+          <div>
+            <ul className="space-y-4">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Jewelry</a>
+              </li>
+              <li>
+                <a href="#">Kids & Baby</a>
+              </li>
+              <li>
+                <a href="#">Men's Fashion</a>
+              </li>
+              <li>
+                <a href="#">Mobile</a>
+              </li>
+              <li>
+                <a href="#">Motorcycles</a>
+              </li>
+              <li>
+                <a href="#">Movies</a>
+              </li>
+              <li>
+                <a href="#">Music</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="space-y-4">
+              <li>
+                <a href="#">Sport</a>
+              </li>
+              <li>
+                <a href="#">Toys</a>
+              </li>
+              <li>
+                <a href="#">Travel</a>
+              </li>
+              <li>
+                <a href="#">Women's Fashion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-  </div>;
+
+      <div>
+        <div>
+          <br></br>
+          <h1 className="font-bold">ABOUT</h1>
+          <br></br>
+        </div>
+        <div>
+          <ul className="space-y-4 opacity-70">
+            <li>
+              <a href="#">About us</a>
+            </li>
+            <li>
+              <a href="#">Delivery</a>
+            </li>
+            <li>
+              <a href="#">Testimonials</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="flex flex-row mt-8">
+        <div className="mr-4">
+          <a href="https://www.facebook.com/OSFDigital/" target="_blank">
+            <img className="opacity-50 w-2 hover:opacity-100" src={f}></img>
+          </a>
+        </div>
+        <div className="mr-4">
+          <a href="#">
+            <img className="opacity-50 hover:opacity-100" src={g}></img>
+          </a>
+        </div>
+        <div className="">
+          <a href="https://twitter.com/osfdigital" target="_blank">
+            <img className="opacity-50 hover:opacity-100" src={t}></img>
+          </a>
+        </div>
+        <div className="ml-4">
+          <a href="#">
+            <img className="opacity-50 hover:opacity-100" src={p}></img>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
