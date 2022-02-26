@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#forhover {
+  display: none;
+}
+
+#services:hover #forhover {
+  display: block;
+}
+
+#popular:hover {
+  background-color: lightgreen;
+}
