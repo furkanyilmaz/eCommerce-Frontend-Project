@@ -1,20 +1,20 @@
-import Header from "./components/Header/Header";
-import Popular from "./components/Popular";
-import Banner from "./components/Banner";
-import Featured from "./components/Featured";
-import Cards from "./components/Cards";
-import Footer from "./components/Footer";
-
+import PageNotFound from "./Pages/PageNotFound";
+import Home from "./Pages/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import LoginDialog from "./components/LoginDialog";
+import ProductDetailPage from "./Pages/ProductDetailPage";
+import CategoryLandingPage from "./Pages/CategoryLandingPage.";
 function App() {
   return (
-    <>
-      <Header />
-      <Popular />
-      <Banner />
-      <Featured />
-      <Cards />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/404" element={<PageNotFound />} />
+        <Route exact path="/Login" element={<LoginDialog />} />
+        <Route exact path="/Product" element={<ProductDetailPage />} />
+        <Route exact path="/Category" element={<CategoryLandingPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
