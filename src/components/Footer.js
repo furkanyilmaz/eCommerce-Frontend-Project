@@ -14,30 +14,38 @@ export default function Footer() {
         </p>
         <br></br>
         <br></br>
-        <h1 className="font-bold">CONTACT</h1>
+        <h1 className="font-bold text-[#333333]">CONTACT</h1>
         <br></br>
-        Headquarters:
-        <br></br>
-        5600, Blvd. des Galeries, Bur 530
-        <br></br>
-        Québec, Québec G2K 2H6
-        <br></br>
-        <br></br>
-        <a href="https://osf.digital/" target="_blank">
+        <div className="text-[#45413E]">
+          Headquarters
+          <br></br>
+          5600, Blvd. des Galeries, Bur 530
+          <br></br>
+          Québec, Québec G2K 2H6
+          <br></br>
+          <br></br>
+        </div>
+        <a
+          className="text-[#45413E]"
+          href="https://osf.digital/"
+          target="_blank"
+        >
           contact@osf-global.com
         </a>
         <br></br>
         <br></br>
-        <a href="#">+1 (888) 548-4344</a>
+        <a href="tel:+1 (888) 548-4344" className="text-[#45413E]">
+          +1 (888) 548-4344
+        </a>
       </div>
 
       <div className="pr-2">
         <div>
           <br></br>
-          <h1 className="font-bold">CATEGORIES</h1>
+          <h1 className="font-bold text-[#333333]">CATEGORIES</h1>
           <br></br>
         </div>
-        <div className="flex flex-row space-x-20 opacity-70">
+        <div className="flex flex-row space-x-20 opacity-70 text-[#45413E]">
           <div>
             <ul className="space-y-4">
               <li>
@@ -108,10 +116,10 @@ export default function Footer() {
       <div>
         <div>
           <br></br>
-          <h1 className="font-bold">ABOUT</h1>
+          <h1 className="font-bold text-[#333333]">ABOUT</h1>
           <br></br>
         </div>
-        <div>
+        <div className="text-[#45413E]">
           <ul className="space-y-4 opacity-70">
             <li>
               <a href="#">About us</a>
