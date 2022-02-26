@@ -266,9 +266,9 @@ export default function Links() {
           <button
             id="dropdown2"
             data-dropdown-toggle="dropdownButton2"
-            className="opacity-50 hover:opacity-100 ml-8 flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+            className="opacity-50 hover:opacity-100 ml-2 flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
           >
-            EN
+            $ US
             <svg
               class="ml-1 w-4 h-4"
               fill="currentColor"
@@ -293,7 +293,7 @@ export default function Links() {
                   href="#"
                   className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
                 >
-                  furkan
+                  $ US
                 </a>
               </li>
               <li>
@@ -301,7 +301,7 @@ export default function Links() {
                   href="#"
                   className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
                 >
-                  TR
+                  £ UK
                 </a>
               </li>
             </ul>
