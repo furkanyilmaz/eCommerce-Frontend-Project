@@ -2,6 +2,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        nunito: ["nunito", "sans-serif"],
+        lato: ["lato-regular"],
+      },
       colors: {
         "grey-blue": "#262a32",
         "dark-blue": "#011847",
@@ -22,11 +26,12 @@ module.exports = {
         s6: "21.5rem",
         fw: "80rem",
       },
+      backgroundImage: {
+        bannerosf: "url('./images/bannerosf.jpeg')",
+        page404: "url('src/images/page404.png')",
+      },
+      plugins: [require("flowbite/plugin")],
     },
-  },
-  plugins: [],
-  fontFamily: {
-    
-    lato:  ['lato-regular'],
+    content: ["./node_modules/flowbite/**/*.js"],
   },
 };

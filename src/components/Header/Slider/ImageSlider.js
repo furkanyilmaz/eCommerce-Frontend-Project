@@ -7,11 +7,15 @@ const ImageSlider = ({ slides }) => {
   const lenght = slides.lenght;
 
   const nextSlide = () => {
-    setCurrent(current === lenght - 1 ? 0 : current + 1);
+    if (current != lenght - 1) {
+      setCurrent(current + 1);
+    }
+    console.log(current);
   };
 
   const prevSlide = () => {
     setCurrent(current === 0 ? lenght - 1 : current - 1);
+    console.log(current);
   };
 
   if (!Array.isArray(slides) || slides.length <= 0) {
@@ -21,19 +25,16 @@ const ImageSlider = ({ slides }) => {
   return (
     <section className="slider relative flex justify-center items-center bg-white">
       <FaArrowAltCircleLeft
-        onClick={nextSlide}
-        className="left-arrow absolute top-2/4 left-16 z-10 cursor-pointer select-none opacity-50 hover:opacity-100"
+        onClick={prevSlide}
+        className="left-arrow absolute top-2/4 left-16 z-1 cursor-pointer select-none opacity-50 hover:opacity-100"
       />
       <FaArrowAltCircleRight
-        onClick={prevSlide}
-        className="right-arrow absolute top-2/4 right-16 z-10 cursor-pointer select-none opacity-50 hover:opacity-100"
+        onClick={nextSlide}
+        className="right-arrow absolute top-2/4 right-16 z-1 cursor-pointer select-none opacity-50 hover:opacity-100"
       />
       {sliderData.map((slide, index) => {
         return (
-          <div
-            className={index === current ? "slide active" : "slide"}
-            key={index}
-          >
+          <div className={"slide"} key={index}>
             {index === current && (
               <img
                 className="w-fw h-96 rounded mt-5"

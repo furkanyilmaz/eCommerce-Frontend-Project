@@ -1,10 +1,9 @@
 import Navbar from "./Navbar/Navbar";
-import Slider from "./Slider";
-import Hero from "./Slider";
+import Slider from "./Slider/Slider";
 
 export default function Header() {
   return (
-    <div className="h-s1 flex flex-col">
+    <div className="flex flex-col relative">
       <Navbar />
       <hr />
       <Slider />

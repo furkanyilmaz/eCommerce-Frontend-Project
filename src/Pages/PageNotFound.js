@@ -4,7 +4,7 @@ import Navbar from "../components/Header/Navbar/Navbar";
 import Search from "../images/Search.png";
 export default function PageNotFound() {
   return (
-    <div>
+    <>
       <Navbar />
       <div
         class="
@@ -67,6 +67,6 @@ export default function PageNotFound() {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }

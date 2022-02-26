@@ -6,14 +6,9 @@ import { sliderData } from "./SliderData.js";
 export default function Slider() {
   return (
     <div className="w-fw mx-auto flex flex-1">
-      <div className="max-w-6xl overflow-hidden">
+      <div className="max-w-6xl overflow-hidden h-full">
         <ImageSlider slides={sliderData} />
       </div>
-      {/* <div className="mr-20 mt-12">
-        <a href="#">
-          <img src={add}></img>
-        </a>
-      </div> */}
       <div class="mr-8 max-w-sm rounded mt-4">
         <div class="mb-2 h-72 rounded border bg-[#84BC22] text-white w-60 ml-16 ">
           <p className="font-bold text-8xl text-center mt-6">55%</p>
@@ -29,7 +24,7 @@ export default function Slider() {
           </div>
           <div class="px-6 pt-6 ml-16">
             <button class="w-40 h-10 rounded-full border border-[#3a5b96] hover:bg-[#3b5998] text-[#3a5b96] hover:text-white">
-              <a href="www.facebook.com">
+              <a href="https://www.facebook.com/OSFDigital/" target={"_blank"}>
                 <img className="float-left ml-8 mt-1" src={facebook}></img>
                 <p className="mr-6 text-center">FOLLOW</p>
               </a>
