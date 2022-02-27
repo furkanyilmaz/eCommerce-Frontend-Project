@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
         <a
           className="text-[#45413E]"
-          href="https://osf.digital/"
+          href="mailto:someone@example.com"
           target="_blank"
         >
           contact@osf-global.com
