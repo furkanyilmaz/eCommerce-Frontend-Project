@@ -24,7 +24,7 @@ module.exports = {
         s4: "34.5rem",
         s5: "12.5rem",
         s6: "21.5rem",
-        fw: "80rem",
+        fw: "1170px",
       },
       backgroundImage: {
         bannerosf: "url('./images/bannerosf.jpeg')",

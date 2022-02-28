@@ -23,28 +23,30 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <section className="slider relative flex justify-center items-center bg-white">
+    <section className="slider flex items-center bg-white h-full">
       <FaArrowAltCircleLeft
         onClick={prevSlide}
-        className="left-arrow absolute top-2/4 left-16 z-1 cursor-pointer select-none opacity-50 hover:opacity-100"
+        className="left-arrow z-1 cursor-pointer select-none opacity-50 hover:opacity-100"
       />
-      <FaArrowAltCircleRight
-        onClick={nextSlide}
-        className="right-arrow absolute top-2/4 right-16 z-1 cursor-pointer select-none opacity-50 hover:opacity-100"
-      />
+
       {sliderData.map((slide, index) => {
         return (
           <div className={"slide"} key={index}>
             {index === current && (
               <img
-                className="w-fw h-96 rounded mt-5"
+                style={{ height: "430px" }}
+                className="w-fw rounded mt-5"
                 src={slide.image}
                 alt="ecommerce image"
-              />
+              ></img>
             )}
           </div>
         );
       })}
+      <FaArrowAltCircleRight
+        onClick={nextSlide}
+        className="right-arrow z-1 cursor-pointer select-none opacity-50 hover:opacity-100"
+      />
     </section>
   );
 };

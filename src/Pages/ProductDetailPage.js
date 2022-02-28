@@ -1,10 +1,10 @@
 import React from "react";
-import Featured from "../components/Featured";
+import Popular from "../components/Popular";
 import Footer from "../components/Footer";
 import Navbar from "../components/Header/Navbar/Navbar";
 import Tabs from "../components/Tabs";
 import BenefitContents from "../components/BenefitContents";
-import Product1 from "../images/Product1.png";
+import Product1 from "../images/product1.jpg";
 
 import f from "../images/f.png";
 import g from "../images/g+.png";
@@ -17,6 +17,7 @@ export default function ProductDetailPage() {
       <Navbar />
       <div
         class="
+        mt-20
         relative
         flex flex-col
         items-center
@@ -26,6 +27,12 @@ export default function ProductDetailPage() {
         bg-[#F1EDEA]
       "
       >
+        <div className=" w-fw mx-auto flex justify-center pb-20">
+          <a href="/">
+            <p className="text-xs text-bold text-green-500">Home</p>
+          </a>
+          <p className="text-xs text-bold">/ Product</p>
+        </div>
         <div className="text-center items-center w-fw mx-auto flex pb-8">
           <div className="bg-[#E5E2DF] w-full pl-2">
             <hr></hr>
@@ -39,14 +46,12 @@ export default function ProductDetailPage() {
             <hr></hr>
           </div>
         </div>
-        <div className="w-11/12 h-3/5 px-40 py-16 bg-white rounded-md shadow-xl">
+        <div className="px-40 py-16 bg-white rounded-md shadow-xl">
           <div className="flex flex-row items-center">
-            <div className="bg-white">
-              <a href="#">
-                <img src={Product1}></img>
-              </a>
+            <div className="flex-1 w-full h-full">
+              <img className="ml-16 w-full" src={Product1}></img>
             </div>
-            <div className="flex-col pl-64">
+            <div className="flex-col pl-64 flex-1">
               <p className="mb-2 font-bold text-black md:text-6xl text-center">
                 $ 299,99
               </p>
@@ -118,7 +123,7 @@ export default function ProductDetailPage() {
         </div>
       </div>
       <Tabs />
-      <Featured />
+      <Popular />
       <BenefitContents />
       <Footer />
     </>

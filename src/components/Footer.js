@@ -49,19 +49,19 @@ export default function Footer() {
           <div>
             <ul className="space-y-4">
               <li>
-                <a href="#">Alcohol</a>
+                <a href="/404">Alcohol</a>
               </li>
               <li>
-                <a href="#">Art</a>
+                <a href="/404">Art</a>
               </li>
               <li>
-                <a href="#">Books</a>
+                <a href="/404">Books</a>
               </li>
               <li>
-                <a href="#">Drinks</a>
+                <a href="/404">Drinks</a>
               </li>
               <li>
-                <a href="#">Electronics</a>
+                <a href="/404">Electronics</a>
               </li>
             </ul>
           </div>
@@ -69,44 +69,44 @@ export default function Footer() {
           <div>
             <ul className="space-y-4">
               <li>
-                <a href="#">Home</a>
+                <a href="/404">Home</a>
               </li>
               <li>
-                <a href="#">Jewelry</a>
+                <a href="/404">Jewelry</a>
               </li>
               <li>
-                <a href="#">Kids & Baby</a>
+                <a href="/404">Kids & Baby</a>
               </li>
               <li>
-                <a href="#">Men's Fashion</a>
+                <a href="/404">Men's Fashion</a>
               </li>
               <li>
-                <a href="#">Mobile</a>
+                <a href="/404">Mobile</a>
               </li>
               <li>
-                <a href="#">Motorcycles</a>
+                <a href="/404">Motorcycles</a>
               </li>
               <li>
-                <a href="#">Movies</a>
+                <a href="/404">Movies</a>
               </li>
               <li>
-                <a href="#">Music</a>
+                <a href="/404">Music</a>
               </li>
             </ul>
           </div>
           <div>
             <ul className="space-y-4">
               <li>
-                <a href="#">Sport</a>
+                <a href="/404">Sport</a>
               </li>
               <li>
-                <a href="#">Toys</a>
+                <a href="/404">Toys</a>
               </li>
               <li>
-                <a href="#">Travel</a>
+                <a href="/404">Travel</a>
               </li>
               <li>
-                <a href="#">Women's Fashion</a>
+                <a href="/404">Women's Fashion</a>
               </li>
             </ul>
           </div>
@@ -116,22 +116,22 @@ export default function Footer() {
       <div>
         <div>
           <br></br>
-          <h1 className="font-bold text-[#333333]">ABOUT</h1>
+          <h1 className="font-bold text-[/404333333]">ABOUT</h1>
           <br></br>
         </div>
-        <div className="text-[#45413E]">
+        <div className="text-[/40445413E]">
           <ul className="space-y-4 opacity-70">
             <li>
-              <a href="#">About us</a>
+              <a href="/404">About us</a>
             </li>
             <li>
-              <a href="#">Delivery</a>
+              <a href="/404">Delivery</a>
             </li>
             <li>
-              <a href="#">Testimonials</a>
+              <a href="/404">Testimonials</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="/404">Contact</a>
             </li>
           </ul>
         </div>
@@ -143,7 +143,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="mr-4">
-          <a href="#">
+          <a href="/404">
             <img className="opacity-50 hover:opacity-100" src={g}></img>
           </a>
         </div>
@@ -153,7 +153,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="ml-4">
-          <a href="#">
+          <a href="/404">
             <img className="opacity-50 hover:opacity-100" src={p}></img>
           </a>
         </div>

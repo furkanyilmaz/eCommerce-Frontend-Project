@@ -1,7 +1,7 @@
 export const sliderData = [
   {
     image:
-      "https://kozalog.com/wp-content/uploads/2020/12/eCommerce-1_670x441.jpg",
+      "https://marketingdigital.bsm.upf.edu/wp-content/uploads/2019/06/e-commerce.jpg",
   },
 
   {

@@ -1,11 +1,12 @@
 import React from "react";
+import { useState } from "react";
 import heart from "../../../images/Heart.png";
 import profileUser from "../../../images/ProfileUser.png";
 import search from "../../../images/Search.png";
 import bag from "../../../images/Bag.png";
-
 import "react-dropdown/style.css";
-export default function Icons() {
+
+export default function Icons({ setLoginDialog }) {
   return (
     <div
       className="flex items-stretch ..."
@@ -25,7 +26,14 @@ export default function Icons() {
           </a>
         </li>
         <li>
-          <a id="login" className="profileLogin" href="">
+          <a
+            id="login"
+            className="profileLogin"
+            href="#"
+            onClick={() => {
+              setLoginDialog(true);
+            }}
+          >
             <img
               className="opacity-70 hover:opacity-100"
               src={profileUser}

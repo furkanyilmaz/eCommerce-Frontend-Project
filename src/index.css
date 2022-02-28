@@ -10,6 +10,54 @@
   display: block;
 }
 
-#popular:hover {
-  background-color: lightgreen;
+#popular {
+  display: block;
 }
+
+#forpopular {
+  display: none;
+  background: rgba(35, 196, 110, 0.9);
+}
+
+#popular:hover #forpopular {
+  display: block;
+}
+#facebook:hover #fbimage {
+  fill: white;
+}
+
+#fbimage {
+  fill: #3b5998;
+  width: 16px;
+  height: 16px;
+}
+/* #declist:hover #desc {
+  position: relative;
+}
+#declist:hover #reviews {
+  position: absolute;
+}
+#declist:hover #additional {
+  visibility: hidden;
+}
+
+#addlist:hover #desc {
+  position: absolute;
+}
+
+#addlist:hover #reviews {
+  position: absolute;
+}
+#addlist:hover #additional {
+  position: relative;
+}
+
+#revlist:hover #reviews {
+  position: relative;
+}
+#revlist:hover #additional {
+  position: absolute;
+}
+#revlist:hover #desc {
+  position: absolute;
+} */

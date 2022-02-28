@@ -1,8 +1,7 @@
 import React from "react";
-import EN from "../../../images/EN.png";
-import US from "../../../images/US.png";
 import _ from "../../../images/_.png";
-import image2 from "../../../images/image2.png";
+import image1 from "../../../images/image1.png";
+
 import "flowbite";
 
 export default function Links() {
@@ -19,7 +18,7 @@ export default function Links() {
             className="
           h-20
            w-full
-         hover:bg-[#262a32]
+         hover:bg-[#262a32] 
          hover:border-b-2 hover:border-[#84BC22]
           hover:text-white 
           font-medium rounded-none  
@@ -27,22 +26,22 @@ export default function Links() {
           inline-flex items-center 
           justify-center"
           >
-            <p className="mr-6">SERVICES</p>
+            <p className="mr-4">SERVICES</p>
             <img src={_}></img>
           </a>
 
           <div
             id="forhover"
-            className="bg-[#262a32] w-full absolute top-20 left-0 right-0 z-10 p-8"
+            className="bg-[#262a32] w-full absolute top-20 left-0 right-0 z-10 p-4"
           >
-            <div className="flex items-center justify-between pr-4 text-white w-fw mx-auto">
+            <div className="flex items-center justify-between pr-4 text-white w-fw mx-auto pb-6">
               <div>
                 <div>
                   <br></br>
                   <h1 className="font-bold">PRODUCT CATEGORIES</h1>
                   <br></br>
                 </div>
-                <div className="flex flex-row space-x-40">
+                <div className="flex flex-row space-x-40 text-sm">
                   <div>
                     <ul className="space-y-4">
                       <li>
@@ -137,7 +136,7 @@ export default function Links() {
                   <br></br>
                 </div>
                 <div>
-                  <ul className="space-y-4">
+                  <ul className="space-y-4 text-sm">
                     <li>
                       <a href="/404">Accessories</a>
                     </li>
@@ -166,7 +165,7 @@ export default function Links() {
                 </div>
               </div>
               <div className="w-60 h-80">
-                <img className="w-60 h-80" src={image2}></img>
+                <img className="w-60 h-80" src={image1}></img>
               </div>
             </div>
           </div>

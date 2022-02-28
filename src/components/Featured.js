@@ -1,5 +1,4 @@
 import React from "react";
-import banner from "../images/banner.png";
 import image1 from "../images/image1.png";
 import image2 from "../images/image2.png";
 import image3 from "../images/image3.png";
@@ -14,6 +13,19 @@ export default function Featured() {
         <p className="text-center">
           Unde omnis iste natus error sit voluptatem
         </p>
+      </div>
+      <div className="flex items-center w-fw mx-auto pt-20 pb-2 justify-center -mt-12">
+        <div className="bg-gray-800 w-s3 ">
+          <hr></hr>
+        </div>
+        <div>
+          <p className="text-white font-bold mr-12 ml-12 text-xl indent-1">
+            ///
+          </p>
+        </div>
+        <div className="bg-gray-800 w-s3 pr-5">
+          <hr></hr>
+        </div>
       </div>
       <div className="flex flex-1 w-fw mx-auto items-center justify-between">
         <div className="w-64 h-72 flex flex-col max-w-sm rounded overflow-hidden shadow-lg bg-white">

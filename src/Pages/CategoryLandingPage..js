@@ -2,13 +2,14 @@ import React from "react";
 import Featured from "../components/Featured";
 import Footer from "../components/Footer";
 import Navbar from "../components/Header/Navbar/Navbar";
+import Products from "../components/Products";
 
 export default function CategoryLandingPage() {
   return (
     <>
       <Navbar />
-      <div className="w-full h-full bg-[#F1EDEA]">
-        <div className=" w-fw flex items-stretch ">
+      <div className="w-full h-full bg-[#F1EDEA] mt-20">
+        <div className=" w-fw mx-auto flex justify-center pt-4">
           <a href="/">
             <p className="text-xs text-bold text-green-500">Home</p>
           </a>
@@ -27,7 +28,25 @@ export default function CategoryLandingPage() {
             <hr></hr>
           </div>
         </div>
+        <div
+          id="filters"
+          className="w-fw mx-auto flex items-center justify-between"
+        >
+          <div id="sibling">
+            <p>Price: </p>
+            <p>Color</p>
+          </div>
+          <div>
+            <p>Brand</p>
+            <p>Sort by</p>
+          </div>
+          <div>
+            <p>Size</p>
+            <p>Show</p>
+          </div>
+        </div>
       </div>
+      <Products />
       <Featured />
       <Footer />
     </>

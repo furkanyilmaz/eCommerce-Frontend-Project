@@ -8,7 +8,7 @@ export default function PageNotFound() {
       <Navbar />
       <div
         class="
-        relative
+        static
         flex flex-col
         items-center
         justify-center
@@ -17,6 +17,12 @@ export default function PageNotFound() {
         bg-[#F1EDEA]
       "
       >
+        <div className=" w-fw mx-auto flex justify-center mb-12">
+          <a href="/">
+            <p className="text-xs text-bold text-green-500">Home</p>
+          </a>
+          <p className="text-xs text-bold"> /404</p>
+        </div>
         <div className="text-center items-center w-fw mx-auto flex pb-8">
           <div className="bg-[#E5E2DF] w-full pl-2">
             <hr></hr>
